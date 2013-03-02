@@ -1,0 +1,37 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  player_id: MyString
+  year_id: 1
+  team_id: MyString
+  g: 1
+  ab: 1
+  r: 1
+  h: 1
+  2b: 1
+  3b: 1
+  hr: 1
+  rbi: 1
+  sb: 1
+  cs: 1
+  birth_year: 1
+  first_name: MyString
+  last_name: MyString
+
+two:
+  player_id: MyString
+  year_id: 1
+  team_id: MyString
+  g: 1
+  ab: 1
+  r: 1
+  h: 1
+  2b: 1
+  3b: 1
+  hr: 1
+  rbi: 1
+  sb: 1
+  cs: 1
+  birth_year: 1
+  first_name: MyString
+  last_name: MyString

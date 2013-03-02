@@ -1,0 +1,12 @@
+<h1>Stats</h1>
+<table>
+	<% @stat.each do |player| %>
+	  <tr>
+	  	<td><%= player.player_id %></td>
+	  	<td><%= player.year_id %></td>
+	    <td><%= player.batting_average %>%</td>
+	    <td><%= player.slugging_percentage %>%</td>
+	  </tr>
+	<% end %>
+</table>
+
