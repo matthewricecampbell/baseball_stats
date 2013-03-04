@@ -3,3 +3,4 @@ class StatsController < ApplicationController
     @stat = Stat.all
   end
 end
+	

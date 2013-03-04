@@ -11,17 +11,17 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130302221705) do
+ActiveRecord::Schema.define(:version => 20130303015437) do
 
   create_table "players", :force => true do |t|
     t.string "birth_year"
     t.string "first_name"
     t.string "last_name"
-    t.string "player_id"
+    t.string "player_key_id"
   end
 
   create_table "stats", :force => true do |t|
-    t.string "player_id"
+    t.string "player_key_id"
     t.string "year_id"
     t.string "team_id"
     t.string "g"

@@ -1,5 +1,5 @@
 Baseball::Application.routes.draw do
-  resources :player
+  resources :players
   resources :stats
   get "home/index"
   root :to => 'home#index'
