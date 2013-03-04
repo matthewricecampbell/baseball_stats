@@ -1,6 +1,10 @@
 class PlayersController < ApplicationController
   def index
-  	@player = Player.all
+  	@players = Player.all
+  end
+
+  def show
+  	@player = Player.find(params[:id])
   end
 
 	# def stat_for_player

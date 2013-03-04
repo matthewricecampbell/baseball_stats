@@ -1,0 +1,15 @@
+<h1>Player</h1>
+<table>
+	<tr>
+		<th>First Name</th>
+		<th>Last name</th>
+		<th>Batting Avg</th>
+		<th>Slugging Avg</th>
+	</tr>
+	<tr>
+	  <td><%= @player.first_name %></td>
+	  <td><%= @player.last_name %></td>
+	  <td><%=  if @player.stat == nil then "no stat" else number_with_precision(@player.stat.batting_average, :precision => 3) end %></td>
+	  <td><%=  if @player.stat == nil then "no stat" else number_with_precision(@player.stat.slugging_percentage, :precision => 2) end %></td>
+	</tr>
+</table>

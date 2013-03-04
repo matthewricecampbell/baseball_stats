@@ -1,14 +1,13 @@
 <h1>Players</h1>
 <table>
-	<% @player.each do |player| %>
+	<% @players.each do |player| %>
 	  <tr>
-	  	<td><%= player.player_key_id %></td>
+	  	<td><%= link_to player.player_key_id, player %></td>
 	  	<td><%= player.first_name %></td>
 	    <td><%= player.last_name %></td>
 	  </tr>
 	<% end %>
 </table>
-
 
 
 

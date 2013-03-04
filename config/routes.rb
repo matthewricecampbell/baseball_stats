@@ -2,9 +2,8 @@ Baseball::Application.routes.draw do
   resources :players
   resources :stats
   get "home/index"
-  root :to => 'home#index'
-  match 'stats' => 'stats#index'
-  match 'players' => 'players#index'
+  root :to => 'players#index'
+
 
 
   # The priority is based upon order of creation:
